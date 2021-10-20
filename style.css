@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'money';
+    src: url('money.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+html{
+    height: 100%;
+}
+
+body {
+    font-family: money, monospace;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: darkcyan;
+}
+
+
+svg {
+    padding: 10px;
+    background-color: paleturquoise;
+    
+}
+
+.bar {
+
+}
+
+.bar:hover {
+    fill: hotpink;
+}
+
+g {
+
+
+}
+
+#tooltip {
+    background-color: darkturquoise;
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+#title {
+    font-size: 2rem;
+}
